@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("wallp/usf.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.login {
+  width: 300px;
+  margin: 110px auto;
+  padding: 20px 80px;
+  opacity: 0.9;
+  background: #1f2735;
+  border-radius: 15px;
+  
+}
+
+.headings {
+  font-family: "Neonderthaw", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+    0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+h2 {
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+h3 {
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+#netidbox {
+  padding: 10px 40px;
+  background-color: #5396b8;
+  color: black;
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+#netidbox:hover {
+  background-color: #133f24;
+  color: white;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: rgb(75, 72, 72);
+}
+
+label {
+  font-family: "Architects Daughter", cursive;
+  color: #fff;
+  font-size: 18px;
+}
+
+#loginsubmit {
+  background-color: #5396b8;
+  height: 50px;
+  width: 80%;
+  margin: 20px 10px 50px 20px;
+  border-color: #051d01;
+  border-width: 5px;
+  border-radius: 30px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#loginsubmit:hover {
+  background-color: #133f24;
+  color: white;
+  cursor: pointer;
+}

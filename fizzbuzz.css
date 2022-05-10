@@ -1,0 +1,65 @@
+body {
+  margin-top: 420px;
+  margin-left: 580px;
+  background-image: url('wallp/fizz.png');
+  background-size: 100%;
+  background-repeat: inherit;
+}
+
+#btn,
+#btn2 {
+  transition-duration: 0.4s;
+  background-color: #a1e4e3;
+  border: 5px solid;
+  border-color: rgb(65, 60, 60);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#btn2 {
+  background-color: #f7a842;
+}
+
+#btn:hover {
+  background-color: #167676;
+  color: white;
+  cursor: pointer;
+}
+
+#btn2:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.scorecard {
+  background-color: #7dd7dd;
+  color: black;
+  padding: 3px 15px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: rgb(22, 19, 19);
+}
+
+h1 {
+  padding-left: 40px;
+  font-size: 45px;
+  margin-bottom: -5px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.scoreline {
+  margin: 10px;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+content{
+  align-items: center;
+  flex-direction: row;
+}
